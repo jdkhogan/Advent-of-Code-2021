@@ -45,7 +45,7 @@ How many measurements are larger than the previous measurement?
 */
 
 
-// read in input data as CSV, convert to array
+// read in input data, convert to array
 var fs = require('fs');
 
 const data = fs.readFileSync('./day1Input.csv', 'utf8');
